@@ -56,16 +56,13 @@ margin-left: 4%;
 }
 
 
-/*
-navigation
-*/ 
 
 .blog-masthead {
   background-color: #0000e6;
   position:fixed;
   width: 100%;
   z-index:999;
-  /*webkit-box-shadow*/
+
 }
 
 /* Nav*/
@@ -157,7 +154,9 @@ navigation
   border-radius: 30px;
 }
 
-
+.btn{
+    margin-left: 25%;
+}
 
 
 .blog-post {
