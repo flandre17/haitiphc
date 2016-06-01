@@ -1,4 +1,5 @@
-// JavaScript 
+// JavaScript
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -17,12 +18,11 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 } 
 
-
 +(function($){
 
 	var Pic=function(){
 		$(".pic").mouseenter(function(){
-	
+		
 		});	
 		$(".pic").mouseleave()(function(){
 		
@@ -42,4 +42,5 @@ function showDivs(n) {
 			$(".btt").hide();
 		}
 	});
+
 })(jQuery);
